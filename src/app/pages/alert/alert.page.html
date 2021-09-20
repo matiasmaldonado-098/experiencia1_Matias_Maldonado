@@ -1,0 +1,70 @@
+<ion-header >
+  <ion-toolbar background color="danger" >
+    
+    <ion-avatar slot="end" >
+      <img src="/assets/zero-two-ok.gif" (click)="openMenu()">
+    </ion-avatar>
+  
+    <ion-buttons  class="ion-padding">
+      <ion-title >Galeria</ion-title>
+    </ion-buttons>
+</ion-toolbar>
+</ion-header>
+
+<ion-content >
+
+  
+  <ion-slides [options]="option" class="ion-margin-top ion-padding" >
+    <ion-slide>
+  <ion-card background color="danger" class="ion-padding">
+    
+
+    <ion-card-header>
+      <ion-card-title>Himouto Umaru-chan</ion-card-title>
+    </ion-card-header>
+    <img src="/assets/04773fa5d781ca725a4ac602596acc78.jpg" class="ion-padding" routerLink="/himouto-umaru-cha">
+    <ion-card-content style="text-align: justify;" style="font-size: 17px;">
+      Umaru Doma, una chica de instituto que vive con su hermano mayor, Taihei. En el colegio (y fuera de su hogar), Umaru parece ser la estudiante ideal, bonita y estética, saca las mejores calificaciónes, y muchos otros talentos. Una vez que llega a casa, sin embargo, se vuelve una floja que pasa su tiempo por ahí, jugando videojuegos, comiendo comida chatarra, y constantemente dependiendo de su hermano mayor.
+    </ion-card-content>
+  </ion-card>
+</ion-slide>
+<ion-slide>
+  <ion-card background color="tertiary" class="ion-padding">
+    <ion-card-header>
+      
+      <ion-card-title>Re zero</ion-card-title>
+    </ion-card-header>
+    <img src="/assets/ReZeroPortada.jpg" class="ion-padding" routerLink="/re-zero">
+    <ion-card-content style="text-align: justify;" style="font-size: 17px;">
+      Subaru Natsuki es un hikikomori que saliendo de una tienda de conveniencia es transportado misteriosamente a un reino de otro mundo, donde lo primero que le ocurre es encontrarse con unos bandidos.
+    </ion-card-content>
+  </ion-card>
+</ion-slide>
+<ion-slide>
+  <ion-card background color="secondary" class="ion-padding">
+    <ion-card-header>
+      
+      <ion-card-title>The Rising Of The Shield Hero</ion-card-title>
+    </ion-card-header>
+    <img src="/assets/hero.jpg" class="ion-padding" routerLink="/the-rising-of-the-shield-hero">
+    <ion-card-content style="text-align: justify;" style="font-size: 17px;">
+      Naofumi Iwatani fue invocado en un mundo paralelo junto a otras tres personas para convertirse en los héroes de ese mundo. Cada uno de los héroes fue equipado con su propia arma legendaria.
+    </ion-card-content>
+  </ion-card>
+</ion-slide>
+
+
+<ion-slide>
+  <ion-card background color="secondary" class="ion-padding">
+    <ion-card-header>
+      
+      <ion-card-title>darling in the franxx</ion-card-title>
+    </ion-card-header>
+    <img src="/assets/darling.jpg" class="ion-padding" routerLink="/darling-in-the-franxx">
+    <ion-card-content style="text-align: justify;" style="font-size: 17px;">
+      En un futuro distante, la humanidad ha creado ciudades fortificadas llamadas Plantaciones, que funcionan como refugio para las personas, pues el suelo de la Tierra está arruinado. Dentro de estas ciudades futuristas, niños y niñas son entrenados para pilotar robots gigantes llamados Franxx.
+    </ion-card-content>
+  </ion-card>
+</ion-slide>
+</ion-slides>
+</ion-content>
